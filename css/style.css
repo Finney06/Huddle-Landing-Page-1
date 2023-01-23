@@ -7,13 +7,6 @@
   --Pink: hsl(322, 100%, 66%);
 }
 
-body {
-  font-size: 1.8rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  height: 100%;
-}
-
 /* HEADER SECTION */
 .header_section {
   background-image: url(../images/bg-hero-desktop.svg);
@@ -31,32 +24,43 @@ body {
   border-radius: 2rem;
 }
 
-.text > h1 {
+.text_box {
+  width: 40%;
+}
+
+.text_box > h1 {
   font-family: "poppins", sans-serif;
-  font-size: 3.5rem;
+  font-size: 2.6rem;
   font-weight: 600;
   margin-top: 5rem;
   margin-bottom: 2rem;
 }
 
-.text p {
+.text_box p {
   font-family: "poppins", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: hsl(208, 11%, 55%);
   font-weight: 400;
   margin-bottom: 2.5rem;
+  width: 38rem;
 }
 
-.text button {
+.text_box button {
   background-color: hsl(322, 100%, 66%);
   color: hsl(207, 100%, 98%);
-  padding: 12px 50px;
-  /* text-align: center; */
+  padding: 1.2rem 5rem;
   text-decoration: none;
-  /* display: inline-block; */
-  font-size: 16px;
+  font-size: 1.2rem;
   margin: 0.25rem 0.125rem 3rem;
   cursor: pointer;
   border: 1px solid hsl(322, 100%, 66%);
-  border-radius: 20px;
+  border-radius: 40px;
+}
+
+.hero_img_box {
+  width: 60%;
+}
+
+.hero_img_box img {
+  width: 100%;
 }

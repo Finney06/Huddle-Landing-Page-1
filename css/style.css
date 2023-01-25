@@ -7,9 +7,11 @@
   --Pink: hsl(322, 100%, 66%);
 }
 
-/* HEADER SECTION */
+/* || HEADER SECTION */
 .header_section {
   background-image: url(../images/bg-hero-desktop.svg);
+  background-size: cover;
+  background-color: var(--Very-Pale-Cyan);
   min-height: 100vh;
   padding: 4rem;
 }
@@ -63,4 +65,27 @@
 
 .hero_img_box img {
   width: 100%;
+}
+
+/* || Features Section*/
+
+.features_section {
+  padding: 8rem;
+}
+
+.features_card {
+  box-shadow:0 0 32px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  padding: 3rem;
+  gap: 5rem;
+}
+
+.features_card img {
+  height: 35rem;
+}
+
+.features_card p {
+  font-size: 1.4rem;
+  color: var(--Grayish-Blue);
+  text-align:left;
 }

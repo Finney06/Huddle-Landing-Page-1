@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-size: 1.8rem;
   font-family: "Open Sans", sans-serif;
@@ -191,6 +195,10 @@ body {
   padding-left: 4.5rem;
 }
 
+.pad-left-xlg {
+  padding-left: 7rem;
+}
+
 /*|| MARGINS */
 .marg-top-sm {
   margin-top: 1.5rem;
@@ -251,4 +259,8 @@ body {
 
 .gap-lg {
   gap: 4.5rem;
+}
+
+.width-48 {
+  width: 48rem;
 }

@@ -15,8 +15,13 @@
   min-height: 100vh;
   padding: 4rem;
 }
+
+.hero_section {
+  padding: 4rem;
+}
+
 .hero_btn > .btn {
-  background-color: hsl(193, 100%, 96%);
+  background-color: hsl(192, 100%, 9%);
   border: hsl(193, 100%, 96%);
   color: hsl(192, 100%, 9%);
   padding-inline: 3rem;
@@ -32,27 +37,28 @@
 
 .text_box > h1 {
   font-family: "poppins", sans-serif;
-  font-size: 2.6rem;
+  font-size: 4.5rem;
   font-weight: 600;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
 }
 
 .text_box p {
   font-family: "poppins", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
   color: hsl(208, 11%, 55%);
   font-weight: 400;
-  margin-bottom: 2.5rem;
-  width: 38rem;
+  margin-bottom: 4rem;
+  /* width: 38rem; */
 }
 
 .text_box button {
   background-color: hsl(322, 100%, 66%);
   color: hsl(207, 100%, 98%);
-  padding: 1.2rem 5rem;
+  padding: 2rem 6rem;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0.25rem 0.125rem 3rem;
   cursor: pointer;
   border: 1px solid hsl(322, 100%, 66%);
@@ -64,7 +70,8 @@
 }
 
 .hero_img_box img {
-  width: 100%;
+  height: 55rem;
+  /* width: 100%; */
 }
 
 /* || Features Section*/
@@ -74,18 +81,18 @@
 }
 
 .features_card {
-  box-shadow:0 0 32px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
   border-radius: 10px;
   padding: 3rem;
   gap: 5rem;
 }
 
 .features_card img {
-  height: 35rem;
+  height: 45rem;
 }
 
 .features_card p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--Grayish-Blue);
-  text-align:left;
+  text-align: left;
 }

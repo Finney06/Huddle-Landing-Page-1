@@ -77,7 +77,9 @@
 /* || Features Section*/
 
 .features_section {
-  padding: 8rem;
+  padding: 8rem 8rem 1rem;
+  margin-bottom: 25rem;
+  position: relative;
 }
 
 .features_card {
@@ -95,4 +97,121 @@
   font-size: 1.6rem;
   color: var(--Grayish-Blue);
   text-align: left;
+}
+
+.cta-container {
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -35rem;
+}
+
+.cta-box {
+  height: 25rem;
+  width: 50%;
+  background-color: var(--Very-Pale-Cyan);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
+}
+
+.cta-box h3 {
+  font-size: 3rem;
+  color: var(--Very-Dark-Cyan);
+}
+
+.cta-box button {
+  background-color: var(--Pink);
+  height: 7rem;
+  width: 40rem;
+  border: none;
+  border-radius: 5rem;
+  color: var(--Very-Pale-Cyan);
+  font-size: 2rem;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
+}
+
+
+/* Footer Section */
+
+.footer {
+  height: 60rem;
+  width: 100vw;
+  background-color: var(--Very-Dark-Cyan);
+  display: flex;
+  flex-direction: column;
+  padding: 0 9rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: var(--Grayish-Blue);
+}
+
+.footer-logo {
+  height: 20rem;
+  position: relative;
+  top: 10rem;
+  margin-top: 10rem;
+}
+
+.footer-mid {
+  height: 25rem;
+  display: flex;
+  gap: 10rem;
+}
+
+.footer-info {
+  width: 35%;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.info img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 2rem;
+  margin-top: .5rem;
+}
+
+.pg-links {
+  height: 100%;
+}
+
+.pg-links ul{
+  list-style: none;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.socials {
+  height: 100%;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.copyright {
+  height: 5rem;
+  width: 100%;
+  position: relative;
+  top: 20rem;
+  font-size: 1.2rem;
 }

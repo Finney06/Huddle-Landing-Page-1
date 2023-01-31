@@ -1,5 +1,5 @@
-/* Below 460px*/
-@media (max-width: 29em) {
+/* Below 375px*/
+@media (max-width: 24em) {
   .hero_section {
     padding: 1rem !important;
     flex-direction: column;

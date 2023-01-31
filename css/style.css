@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
 :root {
   --Very-Pale-Cyan: hsl(193, 100%, 96%);
   --Very-Dark-Cyan: hsl(192, 100%, 9%);
@@ -20,19 +22,19 @@
   padding: 4rem;
 }
 
-.hero_btn > .btn {
-  background-color: hsl(192, 100%, 9%);
-  border: hsl(193, 100%, 96%);
+.hero_btn_box .btn {
+  /* background-color: hsl(193, 100%, 96%); */
   color: hsl(192, 100%, 9%);
   padding-inline: 3rem;
   padding-block: 0.8rem;
   font-size: 1.6rem;
   cursor: pointer;
   border-radius: 2rem;
+  border: none;
 }
 
 .text_box {
-  width: 40%;
+  max-width: 40%;
 }
 
 .text_box > h1 {
@@ -95,8 +97,15 @@
 
 .features_card p {
   font-size: 1.6rem;
+  font-weight: 600;
   color: var(--Grayish-Blue);
   text-align: left;
+}
+
+.features-text-box h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 
 .cta-container {
@@ -105,7 +114,8 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: -35rem;
+  top: 0;
+  transform: translate(-5%, -60%);
 }
 
 .cta-box {
@@ -123,6 +133,8 @@
 }
 
 .cta-box h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   font-size: 3rem;
   color: var(--Very-Dark-Cyan);
 }
@@ -136,12 +148,13 @@
   color: var(--Very-Pale-Cyan);
   font-size: 2rem;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
+  cursor: pointer;
 }
-
 
 /* Footer Section */
 
 .footer {
+  position: relative;
   height: 60rem;
   width: 100vw;
   background-color: var(--Very-Dark-Cyan);
@@ -154,14 +167,14 @@
 }
 
 .footer-logo {
-  height: 20rem;
+  height: 35rem;
   position: relative;
   top: 10rem;
   margin-top: 10rem;
 }
 
 .footer-mid {
-  height: 25rem;
+  height: 100%;
   display: flex;
   gap: 10rem;
 }
@@ -179,14 +192,14 @@
   height: 2rem;
   width: 2rem;
   margin-right: 2rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .pg-links {
   height: 100%;
 }
 
-.pg-links ul{
+.pg-links ul {
   list-style: none;
   margin-bottom: 5rem;
   display: flex;
